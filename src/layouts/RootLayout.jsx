@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 
-const RootLayout = () => {
+const Rootlayout = () => {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Navbar Here */}
@@ -16,4 +16,4 @@ const RootLayout = () => {
   );
 };
 
-export default RootLayout;
+export default Rootlayout;
